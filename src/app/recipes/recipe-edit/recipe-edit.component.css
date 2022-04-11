@@ -1,0 +1,12 @@
+.action-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  justify-self: flex-start;
+  margin-bottom: 2rem;
+  width: 25%;
+}
+
+input.ng-invalid.ng-touched, textarea.ng-invalid.ng-touched {
+  border: 1px solid red
+}
